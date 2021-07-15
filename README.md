@@ -1,10 +1,10 @@
 # Introduction
 **A Telegram Bot to force users to join a specific channel before sending messages in a group.**
-- Find it on Telegram as [Force Subscriber](https://t.me/ForceSubscriber_UBot)
+- Find it on Telegram as [Force Subscriber](http://t.me/Z_Force_Channel_bot)
 
 ## Todo
-- [ ] Add multiple channels support
-- [ ] LOGGER support.
+- [.] Add multiple channels support
+- [.] LOGGER support.
 
 ## Whats new in this fork?🤔
 - Added Private channel support.
@@ -15,12 +15,12 @@
 ## Deploy
 
 ### Deploy To Heroku Now:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jigarvarma2005/ForceSub_Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/selfie-bd/ForceSub_Bot)
 
 ### Deploy in vps
 - Clone this repo
 ```
-git clone https://github.com/Jigarvarma2005/ForceSub_Bot
+git clone https://github.com/selfie-bd/ForceSub_Bot
 ```
 - Change directory
 ```
