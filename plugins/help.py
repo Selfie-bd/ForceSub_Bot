@@ -14,10 +14,10 @@ def _start(client, message):
     if update_channel:
         try:
             user = client.get_chat_member(update_channel, message.chat.id)
-            if user.status == "kicked":
+            if user.status == "kicked💔":
                client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/cinema_fix).",
+                   text="Sorry Sir, You are Banned to use me💔. Contact my [Support Group](https://t.me/joinchat/id3Pl3NaKcE2MzI1).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -43,7 +43,7 @@ def _start(client, message):
                     [
                         [
                            InlineKeyboardButton("Join Updates Channel", url="https://t.me/cinema_fix"),
-                           InlineKeyboardButton("Support Group", url="https://t.me/cinema_fix")
+                           InlineKeyboardButton("Support Group", url="https://t.me/joinchat/id3Pl3NaKcE2MzI1")
                       ],
                      [
                            InlineKeyboardButton("😎 Developed 😎", url="https://t.me/selfiebd")
@@ -60,7 +60,7 @@ def _start(client, message):
             [
                 [
                     InlineKeyboardButton("Join Updates Channel", url="https://t.me/cinema_fix"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/cinema_fix")
+                    InlineKeyboardButton("Support Group", url="https://t.me/joinchat/id3Pl3NaKcE2MzI1")
                 ],
                 [
                     InlineKeyboardButton("😎 Developed 😎", url="https://t.me/selfiebd")
@@ -83,7 +83,7 @@ def _source_code(client, message):
                 ],
                 [
                     InlineKeyboardButton("Join Updates Channel", url="https://t.me/cinema_fix"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/cinema_fix")
+                    InlineKeyboardButton("Support Group", url="https://t.me/joinchat/id3Pl3NaKcE2MzI1")
                 ],
                 [
                     InlineKeyboardButton("😎 Devloper 😎", url="https://t.me/selfiebd")
@@ -125,7 +125,7 @@ def _help(client, message):
         except Exception:
             client.send_message(
                 chat_id=message.chat.id,
-                text="Hey use this command in my pm. \nFor more help ask in my [Support Group](https://t.me/cinema_fix).",
+                text="Hey use this command in my pm. \nFor more help ask in my [Support Group](https://t.me/joinchat/id3Pl3NaKcE2MzI1).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
